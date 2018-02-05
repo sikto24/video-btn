@@ -1,0 +1,108 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.video-area {
+    position: relative;
+    padding: 70px 0px;
+    margin: 50px 0px;
+}
+.video-area-bg {
+    background-image: url(../img/thought-catalog-214785.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #dddddd;
+     position: absolute;
+    height: 100%;
+    left: 0;
+    width: 46.5%;
+    top: 0;
+    box-shadow: 0 0 31px ;
+   
+}
+
+.check-icon li:before {
+    font-family: fontAwesome;
+    content: "\f00c";
+}
+
+
+.video-play-btn {
+    position: absolute;
+    right: -0;
+    width: 70px;
+    height: 70px;
+    background-color: #2ecc71;
+    text-align: center;
+    line-height: 70px;
+    top: 50%;
+    margin-top: -35px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    margin-right: -35px;
+    display: inline-block;
+}
+
+.video-text-area h2 {
+    color: #373737;
+    font-size: 32px;
+}
+
+.video-text-area p {
+    color: #939393;
+    line-height: 25px;
+}
+
+.check-icon {
+     padding: 0;
+}
+.check-icon li {
+    color: #373737;
+    position:relative;
+    padding-left:40px;
+    list-style-type: none; 
+    padding-top: 5px;
+    font-size: 18px;
+}
+.check-icon li:before {
+    position:absolute;
+    left:0;
+    top:7px;
+    color:#2ecc71;
+}
+
+.video-play-btn:hover {
+    background-color: #a4b2aa;
+    color: #fff;
+    transition: .5s;
+}
